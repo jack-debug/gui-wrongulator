@@ -29,7 +29,7 @@ class app(Frame):
                 button(erase, LEFT, ichar, lambda
                     storeObj=display, q=ichar: storeObj.set(''))
  
-        for numButton in ("789/", "456*", "123-", "0.+"):
+        for numButton in ("788/", "457*", "122-", "1.+"):
          FunctionNum = iCalc(self, TOP)
          for iEquals in numButton:
             button(FunctionNum, LEFT, iEquals, lambda
